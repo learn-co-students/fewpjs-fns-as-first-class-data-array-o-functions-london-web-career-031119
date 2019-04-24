@@ -43,6 +43,6 @@ function unleashDog(dogName, dogBreed) {
 }
 
 function exerciseDog(dogName, dogBreed){
-      return routine.map(fn => fn(dogName, dogBreed))
+      return routine.map(activity => activity(dogName, dogBreed))
 
 }
